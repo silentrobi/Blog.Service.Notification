@@ -1,12 +1,9 @@
-﻿using Blog.Service.BlogApi.Domain.Repositories;
-using Blog.Service.Notification.Application.Services.EmailService;
+﻿using Blog.Service.Notification.Application.Services.EmailService;
 using Blog.Service.Notification.Domain.Notification;
+using Blog.Service.Notification.Domain.Repositories;
 using MassTransit;
 using SendGrid.Helpers.Mail;
 using SharedLibrary;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace Blog.Service.Notification.Application.EventConsumers

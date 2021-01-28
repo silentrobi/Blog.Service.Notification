@@ -1,8 +1,8 @@
-using Blog.Service.BlogApi.Domain.Repositories;
+using Blog.Service.Notification.Domain.Repositories;
 using Blog.Service.Notification.Domain.Notification;
 using Blog.Service.Notification.Infrastructure.Database.Contexts;
 
-namespace Blog.Service.BlogApi.Infrastructure.Repositories
+namespace Blog.Service.Notification.Infrastructure.Repositories
 {
     public class UnitOfWork : IUnitOfWork
     {

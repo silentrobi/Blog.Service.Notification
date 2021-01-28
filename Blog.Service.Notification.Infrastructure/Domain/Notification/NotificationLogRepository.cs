@@ -1,5 +1,5 @@
-﻿using Blog.Service.Notification.Domain.Notification;
-using Blog.Service.Notification.Infrastructure.Database.Contexts;
+﻿using Blog.Service.Notification.Infrastructure.Database.Contexts;
+using Blog.Service.Notification.Domain.Notification;
 
 namespace Blog.Service.Notification.Infrastructure.Domain.Notification
 {

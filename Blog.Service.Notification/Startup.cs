@@ -1,10 +1,10 @@
-using Blog.Service.BlogApi.Domain.Repositories;
-using Blog.Service.BlogApi.Infrastructure.Repositories;
 using Blog.Service.Notification.Application.EventConsumers;
 using Blog.Service.Notification.Application.Services.EmailService;
 using Blog.Service.Notification.Domain.Notification;
+using Blog.Service.Notification.Domain.Repositories;
 using Blog.Service.Notification.Infrastructure.Database.Contexts;
 using Blog.Service.Notification.Infrastructure.Domain.Notification;
+using Blog.Service.Notification.Infrastructure.Repositories;
 using MassTransit;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;

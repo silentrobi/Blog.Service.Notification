@@ -23,6 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Blog.Service.Notification.Domain\Blog.Service.Notification.Domain.csproj" />
     <ProjectReference Include="..\Blog.Service.Notification.Infrastructure\Blog.Service.Notification.Infrastructure.csproj" />
     <ProjectReference Include="..\SharedLibrary\SharedLibrary.csproj" />
   </ItemGroup>

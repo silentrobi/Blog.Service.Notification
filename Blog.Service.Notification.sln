@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog.Service.Notification.A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedLibrary", "SharedLibrary\SharedLibrary.csproj", "{8963DFC6-6346-47D5-B084-66C6EB77E9CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.Service.Notification.Domain", "Blog.Service.Domain\Blog.Service.Notification.Domain.csproj", "{184ADC33-E46F-4F22-9BCA-C8BB613B60D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.Service.Notification.Domain", "Blog.Service.Notification.Domain\Blog.Service.Notification.Domain.csproj", "{184ADC33-E46F-4F22-9BCA-C8BB613B60D6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.Service.Notification.Infrastructure", "Blog.Service.Notification.Infrastructure\Blog.Service.Notification.Infrastructure.csproj", "{3926067F-A6E6-4C43-979E-270C4D760C3F}"
 EndProject

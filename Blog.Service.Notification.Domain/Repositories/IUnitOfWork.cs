@@ -1,6 +1,6 @@
 using Blog.Service.Notification.Domain.Notification;
 
-namespace Blog.Service.BlogApi.Domain.Repositories
+namespace Blog.Service.Notification.Domain.Repositories
 {
     public interface IUnitOfWork
     {
