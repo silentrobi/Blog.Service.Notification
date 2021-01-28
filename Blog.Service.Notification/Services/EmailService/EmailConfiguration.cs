@@ -17,7 +17,7 @@ namespace Blog.Service.Notification.Application.Services.EmailService
 	{
 		public EmailConfiguration()
         {
-			SmtpPassword = Environment.GetEnvironmentVariable("USER_PASSWORD", EnvironmentVariableTarget.User);
+			SmtpPassword = Environment.GetEnvironmentVariable("EMAIL_PASSWORD", EnvironmentVariableTarget.User);
 		}
 		public string SmtpServer { get; set; }
 		public int SmtpPort { get; set; }

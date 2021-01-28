@@ -33,7 +33,6 @@ namespace Blog.Service.NotificationSerder.Api
 
             services.AddMassTransit(x =>
             {
-                x.AddConsumer<TestEventConsumer>();
                 x.AddConsumer<GeneratePasswordResetTokenNotificationEventConsumer>();
                 x.AddConsumer<AccountCreateNotificationEventConsumer>();
                 x.AddConsumer<AccountPasswordResetNotificationEventConsumer>();
