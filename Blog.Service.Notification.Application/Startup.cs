@@ -43,8 +43,8 @@ namespace Blog.Service.NotificationSerder.Api
                     cfg.Host(
                         new Uri("rabbitmq://localhost"), h =>
                         {
-                            h.Username("user");
-                            h.Password("user");
+                            h.Username("guest");
+                            h.Password("guest");
                         });
                     cfg.ConfigureEndpoints(context);
                 });
