@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Blog.Service.Domain\Blog.Service.Notification.Domain.csproj" />
+    <ProjectReference Include="..\Blog.Service.Notification.Domain\Blog.Service.Notification.Domain.csproj" />
     <ProjectReference Include="..\Blog.Service.Notification.Domain\Blog.Service.Notification.Domain.csproj" />
   </ItemGroup>
 

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog.Service.Notification.Application", "Blog.Service.Notification\Blog.Service.Notification.Application.csproj", "{87FA4455-D4E8-49FC-8DE3-B1D5FF02ACDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog.Service.Notification.Application", "Blog.Service.Notification.Application\Blog.Service.Notification.Application.csproj", "{87FA4455-D4E8-49FC-8DE3-B1D5FF02ACDA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedLibrary", "SharedLibrary\SharedLibrary.csproj", "{8963DFC6-6346-47D5-B084-66C6EB77E9CF}"
 EndProject
