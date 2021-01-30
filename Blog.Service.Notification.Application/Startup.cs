@@ -41,7 +41,7 @@ namespace Blog.Service.NotificationSerder.Api
                 x.UsingRabbitMq((context, cfg) =>
                 {
                     cfg.Host(
-                        new Uri("rabbitmq://localhost"), h =>
+                        new Uri("rabbitmq://rabbitmq"), h =>
                         {
                             h.Username("guest");
                             h.Password("guest");
