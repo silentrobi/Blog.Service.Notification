@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Blog.Service.Notification.Application.Services.EmailService
 {
@@ -17,8 +14,11 @@ namespace Blog.Service.Notification.Application.Services.EmailService
 	{
 		public EmailConfiguration()
         {
+			SmtpUsername = Environment.GetEnvironmentVariable("EMAIL_NAME");
+			SmtpServer = Environment.GetEnvironmentVariable("EMAIL_SERVER");
 			SmtpPassword = Environment.GetEnvironmentVariable("EMAIL_PASSWORD");
 		}
+
 		public string SmtpServer { get; set; }
 		public int SmtpPort { get; set; }
 		public string SmtpUsername { get; set; }
